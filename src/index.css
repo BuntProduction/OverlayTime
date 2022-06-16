@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-app-region: drag;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  justify-content: space-between;
+  text-align: center;
+  color: grey;
+  user-select: none;
+}
+h1{
+  font-family: 'FuturaLight';
+}
+
+#close{
+  padding: 5px;
+  font-size: .8em;
+  color: grey;
+  -webkit-app-region: no-drag;
+}
+#close:hover{
+  color: white;
+}
+@font-face{
+	font-family: 'FuturaLight';
+	src:  url('FuturaPTLight.otf');
+}
